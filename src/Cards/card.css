@@ -1,0 +1,38 @@
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px #000;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  width: 100%;
+  height: 450px;
+  column-span: 4;
+  padding-bottom: 8rem;
+}
+.card:hover {
+  transform: scale(1.07);
+}
+.card > img {
+  object-fit: fill;
+  min-height: 250px;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.card_info {
+  margin-top: -9px;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1;
+  padding: 40px 20px;
+}
+.card_info h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.card_info h4 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}

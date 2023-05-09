@@ -1,0 +1,16 @@
+.home_section {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 3fr));
+  grid-auto-rows: max-content;
+  gap: 4rem;
+  padding: 2rem;
+}
+.home_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-span-4 {
+  grid-column: span 3 / span 3;
+}
